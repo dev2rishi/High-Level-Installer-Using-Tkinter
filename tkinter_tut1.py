@@ -5,17 +5,17 @@ from tkinter import filedialog
 from openal import *
 
 gui=Tk()
-gui.title(' ©Mightyxor YouTube')
+gui.title('HLL Installer ©Dev Rishi')
 gui.iconbitmap('MIGHTY.ico')
 gui.geometry("512x610")
 
 #Importing Image to the installer USING PIL and Pillow Library
-img = ImageTk.PhotoImage(Image.open("doge.png"))
+img = ImageTk.PhotoImage(Image.open("xor.png"))
 label = Label(image = img)
 label.grid(row=0, column=0, columnspan=3)
 
 #Playing Sound an OGG Opus file (with PyOgg)
-source = oalOpen("doge.opus")
+source = oalOpen("xor.opus")
 
 # Function for Prompt user to select a directory
 
