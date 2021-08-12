@@ -27,7 +27,7 @@ folderPath = StringVar()
 
 #creating input field
 e = Entry(gui, fg="white", bg="black", width=55, textvariable=folderPath)
-e.insert(0, "C:\WOWDOGE\MuchGames\ResidentEvilVillage")
+e.insert(0, "C:\GameFolderName")
 e.grid(row=2, column=0, columnspan=3, pady=10)
 
 #creating checkButtions
