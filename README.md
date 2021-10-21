@@ -1,1 +1,1 @@
-# hll_installer
+# hll_installer GUI only
